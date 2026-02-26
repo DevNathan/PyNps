@@ -199,7 +199,7 @@ if data and company_name:
                 ax.set_title(title)
                 
                 ax.tick_params(axis='both', which='major', labelsize=8, rotation=0)
-                ax[i].tick_params(axis='both', which='minor', labelsize=6)
+                ax.tick_params(axis='both', which='minor', labelsize=6)
 
             plt.tight_layout()
             
